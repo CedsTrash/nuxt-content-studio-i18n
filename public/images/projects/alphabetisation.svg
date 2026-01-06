@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect fill="#f5f5dc" width="800" height="500"/>
+  <!-- Chalkboard -->
+  <rect x="150" y="80" width="500" height="280" fill="#2f4f4f"/>
+  <rect x="160" y="90" width="480" height="260" fill="#355e3b"/>
+  <!-- Writing on board -->
+  <text x="200" y="150" font-family="Arial" font-size="40" fill="white">أ ب ت ث</text>
+  <text x="200" y="220" font-family="Arial" font-size="40" fill="white">A B C D</text>
+  <text x="200" y="290" font-family="Arial" font-size="40" fill="white">1 + 1 = 2</text>
+  <!-- Books -->
+  <rect x="550" y="400" width="80" height="15" fill="#8b4513"/>
+  <rect x="545" y="385" width="90" height="15" fill="#cd853f"/>
+  <rect x="540" y="370" width="100" height="15" fill="#deb887"/>
+  <!-- Pencil -->
+  <rect x="200" y="400" width="100" height="10" fill="#ffd700" transform="rotate(-15 250 405)"/>
+  <polygon points="190,400 200,395 200,410" fill="#ff69b4" transform="rotate(-15 250 405)"/>
+  <text x="400" y="470" font-family="Arial" font-size="20" fill="#6b4f0f" text-anchor="middle">Programme d'alphabétisation</text>
+</svg>

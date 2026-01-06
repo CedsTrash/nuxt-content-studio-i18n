@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect fill="#f5deb3" width="800" height="500"/>
+  <!-- Carpet/textile pattern -->
+  <rect x="150" y="100" width="500" height="300" fill="#cd5c5c"/>
+  <rect x="170" y="120" width="460" height="260" fill="#8b0000"/>
+  <line x1="200" y1="120" x2="200" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <line x1="280" y1="120" x2="280" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <line x1="360" y1="120" x2="360" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <line x1="440" y1="120" x2="440" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <line x1="520" y1="120" x2="520" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <line x1="600" y1="120" x2="600" y2="380" stroke="#ffd700" stroke-width="3"/>
+  <!-- Diamond patterns -->
+  <polygon points="240,200 280,250 240,300 200,250" fill="#ffd700" opacity="0.8"/>
+  <polygon points="400,200 440,250 400,300 360,250" fill="#ffd700" opacity="0.8"/>
+  <polygon points="560,200 600,250 560,300 520,250" fill="#ffd700" opacity="0.8"/>
+  <text x="400" y="450" font-family="Arial" font-size="20" fill="#6b4f0f" text-anchor="middle">Coopérative des femmes artisanes</text>
+</svg>

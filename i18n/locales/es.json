@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "team": "Equipo",
+    "projects": "Proyectos",
+    "donate": "Donar",
+    "contact": "Contacto"
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "viewAll": "Ver todo",
+    "readMore": "Leer más",
+    "back": "Volver",
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "success": "Éxito",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "all": "Todos",
+    "share": "Compartir"
+  },
+  "home": {
+    "hero": {
+      "title": "Asociación Khamlia",
+      "subtitle": "Apoyando a la comunidad Gnawa en el corazón del desierto del Sahara",
+      "cta": "Descubrir nuestros proyectos",
+      "donate": "Hacer una donación"
+    },
+    "about": {
+      "title": "Sobre nosotros",
+      "description": "La Asociación Khamlia trabaja desde 2010 para mejorar las condiciones de vida de la comunidad Gnawa en el pueblo de Khamlia, situado a las puertas del desierto del Sahara, en el sureste de Marruecos. Nuestra misión es preservar el patrimonio cultural único de esta comunidad mientras desarrollamos proyectos de educación, empoderamiento de las mujeres y acceso al agua potable."
+    },
+    "featured": {
+      "title": "Proyectos destacados",
+      "subtitle": "Descubre nuestras iniciativas más impactantes"
+    },
+    "howToHelp": {
+      "title": "Cómo ayudar",
+      "subtitle": "Cada gesto cuenta para apoyar a nuestra comunidad",
+      "donate": {
+        "title": "Hacer una donación",
+        "description": "Tu generosidad permite financiar nuestros proyectos y mejorar la vida de los habitantes de Khamlia."
+      },
+      "volunteer": {
+        "title": "Ser voluntario",
+        "description": "Únete a nosotros en el terreno o a distancia para contribuir a nuestras acciones."
+      },
+      "spread": {
+        "title": "Compartir nuestra misión",
+        "description": "Habla de nosotros a tu alrededor y en las redes sociales."
+      }
+    },
+    "impact": {
+      "title": "Nuestro impacto",
+      "families": "Familias apoyadas",
+      "projects": "Proyectos realizados",
+      "volunteers": "Voluntarios",
+      "years": "Años de acción"
+    },
+    "cta": {
+      "title": "Juntos, construyamos un futuro mejor",
+      "description": "Tu apoyo marca la diferencia en la vida de cientos de familias en Khamlia.",
+      "button": "Donar ahora"
+    }
+  },
+  "team": {
+    "title": "Nuestro equipo",
+    "subtitle": "Personas dedicadas al servicio de la comunidad",
+    "members": "Miembros del equipo",
+    "role": "Rol"
+  },
+  "projects": {
+    "title": "Nuestros proyectos",
+    "subtitle": "Descubre todas nuestras iniciativas para la comunidad de Khamlia",
+    "filter": {
+      "all": "Todos",
+      "education": "Educación",
+      "women": "Empoderamiento de mujeres",
+      "water": "Acceso al agua",
+      "culture": "Cultura",
+      "health": "Salud"
+    },
+    "status": {
+      "all": "Todos los estados",
+      "planned": "Planificado",
+      "active": "En curso",
+      "completed": "Completado"
+    },
+    "goal": "Objetivo",
+    "raised": "Recaudado",
+    "progress": "Progreso",
+    "donateToProject": "Apoyar este proyecto",
+    "noProjects": "No se encontraron proyectos",
+    "location": "Ubicación"
+  },
+  "donate": {
+    "title": "Hacer una donación",
+    "subtitle": "Tu generosidad cambia vidas",
+    "generalDonation": "Donación general",
+    "projectDonation": "Donación para el proyecto",
+    "projectSelection": {
+      "title": "Elegir un proyecto",
+      "general": "Donación general (sin proyecto específico)"
+    },
+    "amount": {
+      "title": "Elige un monto",
+      "custom": "Monto personalizado",
+      "placeholder": "Otro monto"
+    },
+    "frequency": {
+      "title": "Frecuencia",
+      "oneTime": "Donación única",
+      "monthly": "Donación mensual"
+    },
+    "dedication": {
+      "title": "Dedicatoria (opcional)",
+      "placeholder": "En honor a, en memoria de..."
+    },
+    "summary": {
+      "title": "Resumen",
+      "amount": "Monto",
+      "frequency": "Frecuencia",
+      "project": "Proyecto"
+    },
+    "submit": "Proceder al pago",
+    "success": {
+      "title": "¡Gracias por tu generosidad!",
+      "message": "Tu donación ha sido registrada con éxito. Recibirás una confirmación por correo electrónico.",
+      "reference": "Referencia de donación"
+    },
+    "error": {
+      "title": "Error de procesamiento",
+      "message": "Ha ocurrido un error al procesar tu donación. Por favor, inténtalo de nuevo.",
+      "invalidAmount": "Por favor, ingresa un monto válido",
+      "minAmount": "El monto mínimo es de 1€"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti",
+    "form": {
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu{'@'}email.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Asunto de tu mensaje",
+      "message": "Mensaje",
+      "messagePlaceholder": "Tu mensaje...",
+      "submit": "Enviar mensaje"
+    },
+    "info": {
+      "title": "Nuestros datos de contacto",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Email",
+      "hours": "Horarios"
+    },
+    "success": {
+      "title": "¡Mensaje enviado!",
+      "message": "Hemos recibido tu mensaje y te responderemos lo antes posible."
+    },
+    "error": {
+      "title": "Error de envío",
+      "message": "Ha ocurrido un error al enviar tu mensaje. Por favor, inténtalo de nuevo.",
+      "invalidEmail": "Por favor, ingresa una dirección de correo electrónico válida",
+      "required": "Este campo es obligatorio"
+    }
+  },
+  "footer": {
+    "description": "Asociación Khamlia - Apoyando a la comunidad Gnawa en el corazón del desierto del Sahara marroquí.",
+    "quickLinks": "Enlaces rápidos",
+    "followUs": "Síguenos",
+    "newsletter": {
+      "title": "Boletín",
+      "placeholder": "Tu correo electrónico",
+      "subscribe": "Suscribirse"
+    },
+    "copyright": "© {year} Asociación Khamlia. Todos los derechos reservados."
+  },
+  "theme": {
+    "title": "Tema",
+    "desertSand": "Arena del desierto",
+    "oasis": "Oasis",
+    "nightSky": "Cielo estrellado"
+  },
+  "language": {
+    "title": "Idioma",
+    "select": "Seleccionar idioma"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": "Por favor, ingresa una dirección de correo electrónico válida",
+    "minLength": "Mínimo {min} caracteres requeridos",
+    "maxLength": "Máximo {max} caracteres permitidos"
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e90ff"/>
+      <stop offset="100%" style="stop-color:#87ceeb"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#sky2)" width="800" height="500"/>
+  <rect fill="#d4a574" y="300" width="800" height="200"/>
+  <!-- Sun -->
+  <circle cx="650" cy="80" r="50" fill="#ffd700"/>
+  <!-- Solar panels -->
+  <rect x="200" y="200" width="120" height="80" fill="#1a1a2e" transform="rotate(-20 260 240)"/>
+  <rect x="350" y="200" width="120" height="80" fill="#1a1a2e" transform="rotate(-20 410 240)"/>
+  <rect x="500" y="200" width="120" height="80" fill="#1a1a2e" transform="rotate(-20 560 240)"/>
+  <!-- Grid lines on panels -->
+  <line x1="220" y1="220" x2="300" y2="200" stroke="#4169e1" stroke-width="2" transform="rotate(-20 260 240)"/>
+  <line x1="220" y1="240" x2="300" y2="220" stroke="#4169e1" stroke-width="2" transform="rotate(-20 260 240)"/>
+  <!-- Water tank -->
+  <ellipse cx="650" cy="320" rx="60" ry="30" fill="#4682b4"/>
+  <rect x="590" y="320" width="120" height="60" fill="#4682b4"/>
+  <ellipse cx="650" cy="380" rx="60" ry="30" fill="#4682b4"/>
+  <text x="400" y="450" font-family="Arial" font-size="20" fill="#6b4f0f" text-anchor="middle">Puits solaire communautaire</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect fill="#f0f8ff" width="800" height="500"/>
+  <rect fill="#d4a574" y="320" width="800" height="180"/>
+  <!-- Building -->
+  <rect x="200" y="150" width="400" height="200" fill="white" stroke="#ccc" stroke-width="2"/>
+  <!-- Red cross -->
+  <rect x="370" y="180" width="60" height="20" fill="#ff0000"/>
+  <rect x="390" y="160" width="20" height="60" fill="#ff0000"/>
+  <!-- Windows -->
+  <rect x="240" y="200" width="60" height="50" fill="#87ceeb"/>
+  <rect x="500" y="200" width="60" height="50" fill="#87ceeb"/>
+  <!-- Door -->
+  <rect x="360" y="270" width="80" height="80" fill="#8b4513"/>
+  <circle cx="425" cy="310" r="5" fill="#ffd700"/>
+  <text x="400" y="450" font-family="Arial" font-size="20" fill="#6b4f0f" text-anchor="middle">Centre de santé communautaire</text>
+</svg>
