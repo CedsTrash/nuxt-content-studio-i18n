@@ -54,21 +54,26 @@ khamlia/
 ├── composables/
 │   └── useTheme.ts           # Theme management
 ├── content/
-│   └── projects/             # Markdown project files
-│       ├── ecole-khamlia.md
-│       ├── cooperative-femmes.md
-│       ├── puits-solaire.md
-│       ├── festival-gnawa.md
-│       ├── centre-sante.md
-│       └── alphabetisation-adultes.md
+│   ├── fr/projects/          # French project content
+│   │   ├── ecole-khamlia.md
+│   │   ├── cooperative-femmes.md
+│   │   ├── puits-solaire.md
+│   │   ├── festival-gnawa.md
+│   │   ├── centre-sante.md
+│   │   └── alphabetisation-adultes.md
+│   ├── es/projects/          # Spanish translations
+│   ├── ar/projects/          # Arabic translations (RTL)
+│   ├── it/projects/          # Italian translations
+│   └── de/projects/          # German translations
 ├── layouts/
 │   └── default.vue
-├── locales/                  # Translation files
-│   ├── fr.json               # French (default)
-│   ├── es.json               # Spanish
-│   ├── ar.json               # Arabic
-│   ├── it.json               # Italian
-│   └── de.json               # German
+├── i18n/
+│   └── locales/              # Translation files
+│       ├── fr.json           # French (default)
+│       ├── es.json           # Spanish
+│       ├── ar.json           # Arabic
+│       ├── it.json           # Italian
+│       └── de.json           # German
 ├── pages/
 │   ├── index.vue             # Homepage
 │   ├── team.vue              # Team page
@@ -158,7 +163,9 @@ export default {
 
 ### Adding/Editing Projects
 
-Projects are stored as Markdown files in `content/projects/`. Each file should have the following frontmatter:
+Projects are stored as Markdown files organized by locale in `content/<locale>/projects/`. Each locale folder (fr, es, ar, it, de) contains the same projects translated into that language.
+
+Each project file should have the following frontmatter:
 
 ```yaml
 ---
@@ -188,7 +195,7 @@ Your detailed project description here...
 
 ### Adding Translations
 
-1. Add new keys to all locale files in `locales/`
+1. Add new keys to all locale files in `i18n/locales/`
 2. Use the `$t()` function in templates:
 
 ```vue
