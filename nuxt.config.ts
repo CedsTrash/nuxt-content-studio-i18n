@@ -7,11 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  modules: [
-    '@nuxt/content',
-    '@nuxtjs/i18n',
-    '@nuxt/eslint'
-  ],
+  modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxt/eslint', 'nuxt-studio'],
 
   css: ['~/assets/css/main.css'],
 

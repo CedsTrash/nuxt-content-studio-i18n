@@ -10,7 +10,8 @@ const initialProjectSlug = computed(() => route.query.project as string | undefi
 // Fetch projects for the current locale (for the dropdown)
 const { data: allProjects } = await useAsyncData(
   `donate-projects-${locale.value}`,
-  () => queryCollection('projects').where('locale', '=', locale.value).all(),
+  () => queryCollection(`projects_${locale.value}`)
+    .all(),
   { watch: [locale] }
 )
 

@@ -6,11 +6,11 @@ const localePath = useLocalePath()
 const slug = computed(() => route.params.slug as string)
 
 // Fetch project by slug and locale
+
 const { data: project, error } = await useAsyncData(
   `project-${slug.value}-${locale.value}`,
-  () => queryCollection('projects')
+  () => queryCollection(`projects_${locale.value}`)
     .where('slug', '=', slug.value)
-    .where('locale', '=', locale.value)
     .first(),
   { watch: [locale] }
 )

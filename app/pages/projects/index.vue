@@ -8,7 +8,7 @@ const selectedStatus = ref<string>('all')
 // Fetch projects for the current locale
 const { data: allProjects } = await useAsyncData(
   `projects-${locale.value}`,
-  () => queryCollection('projects').where('locale', '=', locale.value).all(),
+  () => queryCollection(`projects_${locale.value}`).all(),
   { watch: [locale] }
 )
 

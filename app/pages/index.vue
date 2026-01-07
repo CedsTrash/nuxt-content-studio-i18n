@@ -5,9 +5,8 @@ const localePath = useLocalePath()
 // Fetch featured projects for the current locale
 const { data: featuredProjects } = await useAsyncData(
   `featured-projects-${locale.value}`,
-  () => queryCollection('projects')
+  () => queryCollection(`projects_${locale.value}`)
     .where('featured', '=', true)
-    .where('locale', '=', locale.value)
     .limit(3)
     .all(),
   { watch: [locale] }

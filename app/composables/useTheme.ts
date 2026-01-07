@@ -16,14 +16,18 @@ const THEME_KEY = 'khamlia-theme'
 
 export function useTheme() {
   const currentTheme = useState<ThemeId>('theme', () => 'desert-sand')
+  const isHydrated = useState('theme-hydrated', () => false)
 
-  // Initialize theme from localStorage on client
-  if (import.meta.client) {
-    const stored = localStorage.getItem(THEME_KEY) as ThemeId | null
-    if (stored && themes.some(t => t.id === stored)) {
-      currentTheme.value = stored
+  // Initialize theme from localStorage after hydration to avoid mismatch
+  onMounted(() => {
+    if (!isHydrated.value) {
+      const stored = localStorage.getItem(THEME_KEY) as ThemeId | null
+      if (stored && themes.some(t => t.id === stored)) {
+        currentTheme.value = stored
+      }
+      isHydrated.value = true
     }
-  }
+  })
 
   function setTheme(theme: ThemeId) {
     currentTheme.value = theme
